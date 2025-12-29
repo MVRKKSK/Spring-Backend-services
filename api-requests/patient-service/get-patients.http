@@ -1,1 +1,14 @@
-GET http://localhost:4000/patients
+
+# GET http://localhost:4000/patients/all
+
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "test@example.com",
+  "address": "55 Queens Avenue",
+  "dateOfBirth": "2003-03-01",
+  "registeredDate": "2025-12-28"
+}
